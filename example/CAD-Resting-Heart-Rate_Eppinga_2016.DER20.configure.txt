@@ -1,0 +1,13 @@
+run_model=node
+normalization_model=calibration
+module_score=penalty
+gwas_node_file=/path/to/CAD-Resting-Heart-Rate_Eppinga_2016.z_magma.boxcox.txt
+scrn_expr_file=/path/to/DER20.avg.tsv
+network_file=/path/to/PathwayCommons12.All.hgnc.exPCDHA.MHC.tsv
+r_include=0.1
+r_exclude=0.05
+remove_zero=true
+outfile=/path/to/CAD-Resting-Heart-Rate_Eppinga_2016.DER20
+permutation=true
+verbose=true
+exclude_genes_file=/path/to/HSIAO_HOUSEKEEPING_GENES.txt
