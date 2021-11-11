@@ -6,5 +6,5 @@ Running example:
 
 java -jar scGWAS_v3.jar CAD-Resting-Heart-Rate_Eppinga_2016.DER20.configure.txt > running.log
 
-Example configure file can be found here
+Example configure file can be found here: example/CAD-Resting-Heart-Rate_Eppinga_2016.DER20.configure.txt
 
