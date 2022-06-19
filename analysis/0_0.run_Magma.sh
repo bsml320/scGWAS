@@ -5,3 +5,5 @@ magma.exe --annotate window=50,35 --snp-loc ..\path\to\snp_loc.txt --gene-loc ..
 
 # Step 2:
 magma.exe --bfile ..\g1000_eur\g1000_eur --pval clozuk_pgc2.meta.sumstats.2.txt N=105318 --gene-annot clozuk_pgc2.genes.annot.txt --out clozuk_pgc2.Magma
+
+# The output file: XXX.genes.out.txt will be used in the next step.
