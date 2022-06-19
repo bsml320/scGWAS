@@ -1,0 +1,13 @@
+run_model=node
+normalization_model=calibration
+module_score=penalty
+gwas_node_file=scGWAS/Schizophrenia_Pardinas_2018/Schizophrenia_Pardinas_2018.z_magma.boxcox.txt
+scrn_expr_file=scGWAS/data/DER-22.avg.boxcox.txt
+network_file=scGWAS/data/PathwayCommons12.All.hgnc.exPCDHA.MHC.NCBI37.tsv
+r_include=0.1
+r_exclude=0.05
+remove_zero=false
+outfile=scGWAS/Schizophrenia_Pardinas_2018/DER22/Schizophrenia_Pardinas_2018.DER22
+permutation=true
+verbose=true
+exclude_genes_file=HSIAO_HOUSEKEEPING_GENES_405.txt
