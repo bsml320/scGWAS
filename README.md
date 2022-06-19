@@ -13,8 +13,9 @@ java -jar scGWAS_v3.jar CAD-Resting-Heart-Rate_Eppinga_2016.DER20.configure.txt 
 ## Notes
 
 - A runnable example can be found in the folder example
-- The code to prepare input files is provided in the folder analysis
+- The code to prepare the input files is provided in the folder analysis
 - The code for post-process can also be found in analysis, including the proportional test, exploration of random modules and NES calculaiton.
+- 
 
 ## Citation
 
