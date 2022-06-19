@@ -8,14 +8,15 @@ scGWAS is a java package and does not need to install. Users only need to set up
 
 ## Running example:
 
-java -jar scGWAS_v3.jar CAD-Resting-Heart-Rate_Eppinga_2016.DER20.configure.txt > running.log
+java -jar scGWAS_v4.jar CAD-Resting-Heart-Rate_Eppinga_2016.DER20.configure.txt > running.log
 
 ## Notes
 
+- The JAR package is in the folder code
 - A runnable example can be found in the folder example
-- The code to prepare the input files is provided in the folder analysis
-- The code for post-process can also be found in analysis, including the proportional test, exploration of random modules and NES calculaiton.
-- 
+- The folder analysis includes all codes for preparing the input files, post-processing including the proportional test, exploration of random modules and NES calculaiton, and figure preparation.
+- We provide 18 scRNA-seq panels that were already pre-processed and ready for applications. These panels were collected for 9 major tissues and can be sufficient for the majority of complex diseases and traits. If you still need to process your own panel of scRNA-seq data, please following the code in the folder analysis.
+- We also provide other supporting files, including the reference network and house-keeping genes that were generally suggested to be excluded.
 
 ## Citation
 
