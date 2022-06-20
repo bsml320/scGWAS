@@ -1,0 +1,31 @@
+This folder contains the following files.
+
+1. The reference network file: 
+
+2. The house-keeping gene list
+
+3. The 18 panels of scRNA-seq data. These files are already pre-processed and contains average gene expression per cell type.
+
+- PBMC: Peripheral Blood Mononuclear Cells (PBMC)
+
+- DER20: brain, PsychENCODE developmental
+
+- DER22: brain, PsychENCODE adult
+
+- Zeise: brain, mouse nervous system
+
+- Saunders: brain, 9 brain regions
+
+- Heart: fetal heart
+
+- Liver: human liver
+
+- Lung: droplet-based 10x Chromium protocol (Lung10x) or FACS-sorted cells followed by SmartSeq2 protocol (LungSS2)
+
+- Pancreas: EMTAB5061.avg.txt, GSE81547.avg.txt, GSE81608.avg.txt, GSE84133_human.avg.txt, GSE85241.avg.tsv
+
+- Spleen: from Madissoon et al.
+
+- Esophagus:  from Madissoon et al.
+
+- Decidua 
