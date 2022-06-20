@@ -1,8 +1,11 @@
-## All parameters are provided through the configure file. The general rules of this file include:
+## General rules
+All parameters are provided through the configure file. The general rules of this file include:
 - One parameter per row
-- The parameters and their values are case sensitive. Thus, r_include and R_include would be two different parameters.
+- Case sensitive: all parameters and their values are case sensitive. Thus, r_include and R_include would be two different parameters. For parameters accepting logical values, "true" and "false" should be in lower case, e.g., "permutation=true" means "to run the permutation" but "permutation=True" would not be recognized.
 - No space. If the file names of your input files have space, please rename it.
 - The format is: the row starts with a keyword followed exactly by its values without space, e.g., r_include=0.1
+
+## Quick start
 - A full list of all acceptable parameters is explained below. However, many parameters can be leave it with the default values. Thus, in each application, users may only provide the following "essential" parameters:
 
 - [ ] gwas_node_file
