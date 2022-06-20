@@ -4,14 +4,15 @@ All parameters are provided through the configure file. The general rules of thi
 - No space. If the file names of your input files have space, please rename it.
 - The format is: the row starts with a keyword followed exactly by its values without space, e.g., r_include=0.1
 - A full list of all acceptable parameters is explained below. However, many parameters can be leave it with the default values. Thus, in each application, users may only provide the following "essential" parameters:
-1 gwas_node_file
-2 scrn_expr_file
-3 network_file
-4 outfile
+
+- [ ] gwas_node_file
+- [ ] scrn_expr_file
+- [ ] network_file
+- [ ] outfile
 
 - Note: Java can be quiet confusing when looking for files. If not sure, use the full path to each of the input files.
 
- 
+
 Explanation of all parameters:
 
 - run_model: always set as "node", indicating node-weighted module search
