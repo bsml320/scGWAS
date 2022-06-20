@@ -18,5 +18,5 @@ A screen shot is as below:
 ![running.log](Capture.PNG)
 
 ### Step 4. Define significant modules
--- run the code analysis/3.define_sig.R
--- The significant modules and module genes will be generated
+- run the code analysis/3.define_sig.R
+- The significant modules and module genes will be generated
