@@ -1,8 +1,8 @@
 This folder contains the following files.
 
-1. The reference network file: 
+1. The reference network file: PathwayCommons12.All.hgnc.exPCDHA.MHC.NCBI37.tsv
 
-2. The house-keeping gene list
+2. The house-keeping gene list: HSIAO_HOUSEKEEPING_GENES_new.txt
 
 3. The 18 panels of scRNA-seq data. These files are already pre-processed and contains average gene expression per cell type.
 
