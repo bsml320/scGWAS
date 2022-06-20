@@ -23,3 +23,5 @@ Explanation of all parameters:
 - exclude_genes_file: genes in this file will be excluded from the analysis, e.g., those annotated as house-keeping genes.
 - permutation: whether to conduct the virtual search process or not. Suggest to be true.
 - verbose: whether to print the intermediate results on screen.
+
+Regarding the input files: Java can be quite confusing when looking for files. If not sure, use the full path to each of the input files.
