@@ -9,6 +9,8 @@ All parameters are provided through the configure file. The general rules of thi
   -- network_file
   -- outfile
 
+- Note: Java can be quiet confusing when looking for files. If not sure, use the full path to each of the input files.
+
  
 Explanation of all parameters:
 
@@ -24,4 +26,3 @@ Explanation of all parameters:
 - permutation: whether to conduct the virtual search process or not. Suggest to be true.
 - verbose: whether to print the intermediate results on screen.
 
-Regarding the input files: Java can be quite confusing when looking for files. If not sure, use the full path to each of the input files.
