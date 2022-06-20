@@ -1,4 +1,4 @@
-All parameters are provided through the configure file. The general rules of this file include:
+## All parameters are provided through the configure file. The general rules of this file include:
 - One parameter per row
 - The parameters and their values are case sensitive. Thus, r_include and R_include would be two different parameters.
 - No space. If the file names of your input files have space, please rename it.
@@ -13,7 +13,7 @@ All parameters are provided through the configure file. The general rules of thi
 - Note: Java can be quiet confusing when looking for files. If not sure, use the full path to each of the input files.
 
 
-Explanation of all parameters:
+## Explanation of all parameters:
 
 - run_model: always set as "node", indicating node-weighted module search
 - normalization_model: default: calibration; available values: calibration, scale; suggestion: always set as calibration
