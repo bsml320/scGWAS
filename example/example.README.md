@@ -21,7 +21,8 @@ After finishing the analysis, there will be three files generated in the output 
 - Schizophrenia_Pardinas_2018.DER22..shared_genes.scores.calibration.txt
 - Schizophrenia_Pardinas_2018.DER22.all.random_modules.txt
 - Schizophrenia_Pardinas_2018.DER22.combined-z.txt
-Note that 'Schizophrenia_Pardinas_2018.DER22' is the output file name specified in the configure file.
+
+**Note that 'Schizophrenia_Pardinas_2018.DER22' is the output file name specified in the configure file.**
 
 ### Step 4. Define significant modules
 - run the code analysis/3.define_sig.R
