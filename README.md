@@ -15,7 +15,7 @@ All parameters are provided to JAR through the configure file. Please check [her
 
 ## Notes
 
-- The JAR package is in the folder [code]((https://github.com/bsml320/scGWAS/tree/main/code)
+- The JAR package is in the folder [code](https://github.com/bsml320/scGWAS/tree/main/code)
 - A runnable example can be found in the folder example
 - The folder analysis includes all codes for preparing the input files, post-processing including the proportional test, exploration of random modules and NES calculaiton, and figure preparation.
 - We provide 18 scRNA-seq panels that were already pre-processed and ready for applications. These panels were collected for 9 major tissues and can be sufficient for the majority of complex diseases and traits. If you still need to process your own panel of scRNA-seq data, please follow the code in the folder [analysis](https://github.com/bsml320/scGWAS/blob/main/analysis) to prepare and normalize the input data.
