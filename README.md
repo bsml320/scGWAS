@@ -4,7 +4,7 @@ scGWAS leverages scRNA-seq data to identify the genetically mediated association
 
 ## Install
 
-scGWAS is a java package and does not need to install. Users only need to set up the Java Running Environment, which can be downloaded [here] (https://www.oracle.com/java/technologies/downloads/).
+scGWAS is a java package and does not need to install. Users only need to set up the Java Running Environment, which can be downloaded [here](https://www.oracle.com/java/technologies/downloads/).
 
 ## Running example:
 To run the package only one command line is needed:
