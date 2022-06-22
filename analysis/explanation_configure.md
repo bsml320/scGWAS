@@ -13,7 +13,7 @@ All parameters are provided through the configure file. The general rules of thi
 - [ ] network_file
 - [ ] outfile
 
-- Note: Java can be quiet confusing when looking for files. If not sure, use the full path to each of the input files.
+- Note: Java can be quiet confusing when looking for files. Thus, we suggest to use the full path to each of the input files.
 
 
 ## Explanation of all parameters:
@@ -29,4 +29,5 @@ All parameters are provided through the configure file. The general rules of thi
 - exclude_genes_file: genes in this file will be excluded from the analysis, e.g., those annotated as house-keeping genes.
 - permutation: whether to conduct the virtual search process or not. Suggest to be true.
 - verbose: whether to print the intermediate results on screen.
+- module_num: the number of random modules to be generated for each size. Default is 1000.
 
