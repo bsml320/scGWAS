@@ -13,7 +13,7 @@ All parameters are provided through the configure file. The general rules of thi
 - [ ] network_file
 - [ ] outfile
 
-- Note: Java can be quiet confusing when looking for files. Thus, we suggest to use the full path to each of the input files.
+- Note: Java can be quite confusing when looking for files. Thus, we suggest to use the full path to each of the input files.
 
 
 ## Explanation of all parameters:
