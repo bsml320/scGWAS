@@ -15,6 +15,7 @@ All parameters are provided through the configure file. The general rules of thi
 
 - Note: Java can be quite confusing when looking for files. Thus, we suggest to use the full path to each of the input files.
 
+- Note for gene-based scores provided in the file "gwas_node_file": we used gene-based scores calculated by using Magma, where SNPs that were located in the gene body or the flanking regions (50 kb upstream and 35 kb downstream) were included for each gene to calculate the gene-level p-values. However, such a strategy might be limited to proximal regions and might miss important SNP-gene relationships. Users can map SNPs to genes using customized strategies, e.g., mapping of SNPs to genes using functional annotations such as promoters and enhancers, or using QTL relationships such as eQTLs, mQTLs, and pQTLs. Users only need to provide the resultant gene-based scores as a two-column and tab-seperated file to scGWAS (see below: gwas_node_file). Make sure to transform the gene-based scores to an approximate normal distribution (e.g., following the boxcox-transformation procedure).
 
 ## Explanation of all parameters:
 
